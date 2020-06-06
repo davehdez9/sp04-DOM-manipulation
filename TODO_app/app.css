@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue;
+  color: white;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+form input {
+  width: 50%;
+}
+
+form input:hover {
+  background: black;
+  color: white;
+}
+
+form button {
+  width: 15%;
+}
+
+form button:hover {
+  background: black;
+  color: white;
+}
+
+.task-list {
+  font-size: 2rem;
+  padding: 5%;
+  color: black;
+}
+
+.task-list button {
+  margin: 1.5%;
+  width: 13%;
+}
+
+.task-list button:hover {
+  background: brown;
+  color: white;
+}
